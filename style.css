@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Space Mono', serif;
     /* min-height: 100vh; */
 }
 
@@ -90,9 +90,7 @@ footer p {
     color: #BDBDBD;
 }
 
-a {
-    color: #BDBDBD;
-}
+a {}
 
 
 footer p>span {
