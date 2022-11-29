@@ -7,7 +7,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 ul {
@@ -30,13 +30,19 @@ img {
 .cta {
     padding: 1em 1.6em;
     background: #333333;
+    cursor: pointer;
 
     color: #fff;
-    font-size: .8rem;
+    font-size: clamp(.8rem, 1.5vmin, 1.25rem);
     text-transform: uppercase;
     border: 0;
 
     margin: 2em 0;
+}
+
+.cta::after,
+.cta:hover {
+    opacity: .75;
 }
 
 /* header */
@@ -63,15 +69,55 @@ main {
 .section p {
     font-size: clamp(1rem, 3vw, 1.5rem);
     margin-bottom: 1em;
-}
-
-footer {
-    padding: 1em 0;
-    margin-top: auto;
-
 
 }
+
+
 
 /* end of main */
 
-@media (min-width:600px) {}
+footer {
+    padding: 1em 0;
+    /* margin-top: auto; */
+
+    position: relative;
+    bottom: 0;
+}
+
+
+footer p {
+    text-align: center;
+    color: #BDBDBD;
+}
+
+a {
+    color: #BDBDBD;
+}
+
+
+footer p>span {
+    text-decoration: underline;
+}
+
+@media (min-width:600px) {
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .scarecrow {
+        width: min(70%, 700px);
+        flex-shrink: 1;
+        flex-grow: 2;
+    }
+
+    .section {
+        flex-shrink: 4;
+        flex-grow: 1;
+    }
+
+
+
+
+}
