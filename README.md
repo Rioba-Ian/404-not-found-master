@@ -1,24 +1,14 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">404 Error Page</h1>
+<h1 align="center">Responsive Web Design Projects</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+   Solutions for responsive web design challenges from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
 <div align="center">
   <h3>
-    <a href="https://rioba-ian.github.io/404-not-found-master/">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="[https://{your-url-to-the-solution}](https://github.com/Rioba-Ian/404-not-found-master)">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
-      Challenge
-    </a>
+    <a href="https://devchallenges.io/portfolio/Rioba-Ian" target="_blank">DevChallenges Profile</a>
   </h3>
 </div>
 
@@ -27,7 +17,7 @@
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [Overview](#overview)
+- [Projects](#projects)
   - [Built With](#built-with)
 - [Features](#features)
 - [Acknowledgements](#acknowledgements)
@@ -35,22 +25,19 @@
 
 <!-- OVERVIEW -->
 
-## Overview
-The desktop view
+## Projects
 
-![screenshot](./desktop1440.png)
-
-The mobile view
-
-![screenshot](mobile.png)
-
-Some of css new features I applied here are the clamp in font sizes and the min() for width and maxwidth.
+1. 404 error page 
+   - [Link]() 
+2. Teams Page
+   - [Link]()
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- HTML and CSS
+- The 404 error page was built using Html and css. CSS concepts that I used were flexbox.
+- The teams page is heavy on css grid and lots of media queries to make the images really stand out.
 
 
 ## Features
