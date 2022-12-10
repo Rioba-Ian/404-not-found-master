@@ -18,6 +18,7 @@
 
 - [Table of Contents](#table-of-contents)
 - [Projects](#projects)
+- [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
 - [Acknowledgements](#acknowledgements)
@@ -28,9 +29,20 @@
 ## Projects
 
 1. 404 error page 
-   - [Link]() 
+   - [Link](https://404-error-page-a911d0.netlify.app/) 
 2. Teams Page
-   - [Link]()
+   - [Link](https://teams-page-01b91f.netlify.app/)
+
+## Overview
+
+1. 404 page 
+
+![screenshot](Screenshot%202022-12-10%20at%2013-26-47%20Devchallenges.png)
+
+2. Teams Page
+
+![screenshot](Screenshot%202022-12-10%20at%2013-26-28%20Devchallenges.png)
+
 
 ### Built With
 
@@ -44,7 +56,8 @@
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
+- The 404 page is a proper visual to visitors incase their url does not exist instead of the usual error page.
+- The teams page is a grid layout of a creative crew. I really enjoyed this project.
 
 
 ## Acknowledgements
