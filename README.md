@@ -1,14 +1,24 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Responsive Web Design Projects</h1>
+<h1 align="center">{Your project name}</h1>
 
 <div align="center">
-   Solutions for responsive web design challenges from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
 <div align="center">
   <h3>
-    <a href="https://devchallenges.io/portfolio/Rioba-Ian" target="_blank">DevChallenges Profile</a>
+    <a href="https://{your-demo-link.your-domain}">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://{your-url-to-the-solution}">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
+      Challenge
+    </a>
   </h3>
 </div>
 
@@ -16,59 +26,49 @@
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
-- [Projects](#projects)
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
-- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
-## Projects
-
-1. 404 error page 
-   - [Link](https://404-error-page-a911d0.netlify.app/) 
-2. Teams Page
-   - [Link](https://teams-page-01b91f.netlify.app/)
-
 ## Overview
 
-1. 404 page 
+![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
 
-![screenshot](Screenshot%202022-12-10%20at%2013-26-47%20Devchallenges.png)
+Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-2. Teams Page
-
-![screenshot](Screenshot%202022-12-10%20at%2013-26-28%20Devchallenges.png)
-
+- Where can I see your demo?
+- What was your experience?
+- What have you learned/improved?
+- Your wisdom? :)
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- The 404 error page was built using Html and css. CSS concepts that I used were flexbox.
-- The teams page is heavy on css grid and lots of media queries to make the images really stand out.
-
+- [React](https://reactjs.org/)
+- [Vue.js](https://vuejs.org/)
+- [Tailwind](https://tailwindcss.com/)
 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-- The 404 page is a proper visual to visitors incase their url does not exist instead of the usual error page.
-- The teams page is a grid layout of a creative crew. I really enjoyed this project.
-
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
 
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
+- [Node.js](https://nodejs.org/)
 - [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
 
-- Website [Rioba](https://ian-rioba-portfolio.netlify.app/)
-- GitHub [@Rioba Ian](https://github.com/Rioba-Ian)
-- Twitter [@Rioba](https://twitter.com/rioba_riri)
+- Website [your-website.com](https://{your-web-site-link})
+- GitHub [@your-username](https://{github.com/your-usermame})
+- Twitter [@your-twitter](https://{twitter.com/your-username})
