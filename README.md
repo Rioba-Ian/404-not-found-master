@@ -32,6 +32,8 @@
    - [Link](https://404-error-page-a911d0.netlify.app/) 
 2. Teams Page
    - [Link](https://teams-page-01b91f.netlify.app/)
+3. Interior Consultant Page
+     - [Link](https://interior-consultant-1f81ee.netlify.app/)
 
 ## Overview
 
@@ -44,13 +46,19 @@
 ![screenshot](Screenshot%202022-12-10%20at%2013-26-28%20Devchallenges.png)
 
 
+
+3. Interior consultant
+
+![screenshot](Screenshot%202022-12-14%20at%2017-34-59%20Devchallenges.png)
+
+
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - The 404 error page was built using Html and css. CSS concepts that I used were flexbox.
 - The teams page is heavy on css grid and lots of media queries to make the images really stand out.
-
+- An interior consultant page for an interior decor designer. I've applied some animations in my work for the first time.
 
 ## Features
 
@@ -58,7 +66,7 @@
 
 - The 404 page is a proper visual to visitors incase their url does not exist instead of the usual error page.
 - The teams page is a grid layout of a creative crew. I really enjoyed this project.
-
+- The interior consultant page has some transition animations that make it appealing to stay in the site.
 
 ## Acknowledgements
 
