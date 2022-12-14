@@ -94,7 +94,22 @@ header {
     justify-content: space-between;
 }
 
+.hamburger-button {
+    background: none;
+    border: none;
 
+    position: relative;
+    z-index: 9999;
+}
+
+.hamburger-button__bar {
+    background-color: #fff;
+    height: 4px;
+    width: 25px;
+    margin-top: 4px;
+    border-radius: 2px;
+
+}
 
 /* main section */
 .main {
