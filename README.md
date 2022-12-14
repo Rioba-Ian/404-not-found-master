@@ -45,7 +45,7 @@
 
 ![screenshot](Screenshot%202022-12-10%20at%2013-26-28%20Devchallenges.png)
 
-1. Interior Consultant Page
+3. Interior Consultant Page
 
 ![screenshot](Screenshot%202022-12-14%20at%2017-59-41%20Devchallenges.png)
 
