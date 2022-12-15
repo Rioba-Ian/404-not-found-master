@@ -34,7 +34,7 @@ a {
 }
 
 .container {
-    width: min(90%, 1280px);
+    width: min(90%, 1300px);
     margin: 0 auto;
 }
 
@@ -61,16 +61,20 @@ a {
 
 h1 {
     font-weight: 500;
-    font-size: 10vmin;
+    font-size: clamp(3.5rem, 4rem, 5vmin);
     font-family: 'Lora', serif;
     margin: 1em 0;
 }
 
 h2 {
     font-weight: 500;
-    font-size: 4.5vmin;
+    font-size: clamp(1.5rem, 2rem);
     font-family: 'Lora', serif;
     margin: 1em 0;
+}
+
+p {
+    font-size: clamp(1.125rem, 1.5rem, 1.75rem);
 }
 
 
@@ -150,7 +154,7 @@ header {
 
 }
 
-.main-image--info {}
+
 
 .profile {
     display: flex;
@@ -204,6 +208,22 @@ header {
 
     .navbar-list li {
         margin-left: 4em;
+    }
+
+    .main {
+        display: grid;
+        grid-template-columns: 50% 1fr;
+
+        align-items: center;
+
+    }
+
+    .main-content {
+        padding-bottom: 10em;
+    }
+
+    .main-image--info {
+        transform: translate(-4%, -40%);
     }
 }
 
