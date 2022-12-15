@@ -229,7 +229,7 @@ footer a:hover::before {
 .profile img {
     width: 5rem;
     border-radius: 50%;
-    outline: 2px solid rgb(255, 0, 85);
+    outline: 3px solid rgb(255, 149, 0);
     margin-right: 1em;
 }
 
