@@ -135,6 +135,17 @@ footer a:hover::before {
 }
 
 .dropback {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vh;
+    pointer-events: none;
+
+    background: hsla(0, 0%, 0%, 0.533);
+    z-index: 0;
+
     display: none;
 }
 
