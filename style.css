@@ -261,16 +261,19 @@ footer {
         display: none;
     }
 
-
     .navbar {
         display: flex;
+        position: relative;
+        right: 0;
+        height: 0;
+        background-color: transparent;
+        width: auto;
 
     }
 
     .navbar-list {
         display: flex;
         align-items: center;
-        justify-content: space-between;
     }
 
     .navbar-list li {
