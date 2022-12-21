@@ -181,6 +181,28 @@ footer a:hover::before {
     margin-top: 4px;
     border-radius: 2px;
 
+    transform-origin: 21px;
+    transition: transform .4s ease-in-out, opacity .4s ease-in-out;
+
+}
+
+.hamburger-button__bar:nth-child(1) {
+    margin-top: 0;
+}
+
+
+.hamburger-button--open .hamburger-button__bar:nth-child(1) {
+    margin-top: 0;
+    transform: rotate(-45deg);
+}
+
+.hamburger-button--open .hamburger-button__bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-button--open .hamburger-button__bar:nth-child(3) {
+    margin-top: 0;
+    transform: rotate(45deg);
 }
 
 /* main section */
