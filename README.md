@@ -29,11 +29,11 @@
 ## Projects
 
 1. 404 error page 
-   - [Link](https://404-error-page-a911d0.netlify.app/) 
+   - [Live Site](https://404-error-page-a911d0.netlify.app/) 
 2. Teams Page
-   - [Link](https://teams-page-01b91f.netlify.app/)
-3. Interior Consultant Page
-     - [Link](https://interior-consultant-1f81ee.netlify.app/)
+   - [Live Site](https://teams-page-01b91f.netlify.app/)
+3. Interior Consultant HomePage
+     - [Live Site ](https://interior-consultant-1f81ee.netlify.app/)
 
 ## Overview
 
@@ -47,7 +47,7 @@
 
 3. Interior Consultant Page
 
-![screenshot](Screenshot%202022-12-14%20at%2017-59-41%20Devchallenges.png)
+![screenshot](./Screenshot%202022-12-22%20at%2020-41-44%20Devchallenges.png)
 
 ### Built With
 
@@ -57,9 +57,8 @@
 - The teams page is heavy on css grid and lots of media queries to make the images really stand out.
 - An interior consultant page for an interior decor designer. I've applied some animations in my work for the first time.
 
-## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+## Features
 
 - The 404 page is a proper visual to visitors incase their url does not exist instead of the usual error page.
 - The teams page is a grid layout of a creative crew. I really enjoyed this project.
@@ -67,7 +66,6 @@
 
 ## Acknowledgements
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 - [Marked - a markdown parser](https://github.com/chjj/marked)
