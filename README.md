@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<div align="center"style="height:200px;">
+<div align="center"style="height:100px;">
 <img src="./assets/Screenshot 2022-12-22 at 20-48-31 rioba Portfolio devChallenges.io.png" />
 </div>
 
@@ -47,11 +47,11 @@
 
 2. Teams Page
 
-![screenshot](Screenshot%202022-12-10%20at%2013-26-28%20Devchallenges.png)
+![screenshot](./assets/Screenshot%202022-12-10%20at%2013-26-28%20Devchallenges.png)
 
 3. Interior Consultant Page
 
-![screenshot](Screenshot%202022-12-22%20at%2020-41-44%20Devchallenges.png)
+![screenshot](./assets/Screenshot%202022-12-22%20at%2020-41-44%20Devchallenges.png)
 
 ### Built With
 
