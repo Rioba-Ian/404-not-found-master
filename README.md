@@ -22,7 +22,6 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
 
@@ -36,13 +35,6 @@
 
 ![screenshot](./Screenshot%202022-12-22%20at%2020-07-33%20Devchallenges.png)
 
-<!-- - Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :) -->
 It was a new experience learning about css transitions and also toggling between classes in css. 
 
-## Features
-
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
 
