@@ -1,5 +1,5 @@
-<div align="center"style="height:100px;">
-  <img src="./assets/Screenshot 2022-12-22 at 20-48-31 rioba Portfolio devChallenges.io.png" />
+<div align="center">
+  <img style="height: 100px" src="./assets/Screenshot 2022-12-22 at 20-48-31 rioba Portfolio devChallenges.io.png" />
 </div>
 
 <h1 align="center">Responsive Web Design Projects</h1>
