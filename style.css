@@ -1,0 +1,56 @@
+:root{
+    /* primary */
+    --yellow-orange: #F2994A;
+}
+
+*,*::before,*::after{
+margin: 0;
+box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+fieldset{
+    border: none;
+}
+
+.container{
+    width: min(80%, 1200px);
+    margin: 0 auto;
+}
+
+body{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+/* start of header */
+header{
+    padding: 1em 0;
+}
+
+header h1{
+    font-size: 1.5rem;
+}
+
+header p{
+    font-size: .75rem;
+}
+
+.header-content{
+    padding: 1em 0;
+    /* outline: 2px solid palevioletred; */
+    display: flex;
+    align-items: flex-start;
+}
+
+.header-content img{
+    margin-right: 1em;
+}
+
+/* end of header */
