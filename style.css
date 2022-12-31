@@ -54,3 +54,50 @@ header p{
 }
 
 /* end of header */
+
+/* aside content */
+
+aside{
+    padding: 1em 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: auto;
+    gap: .5em;
+
+}
+
+
+
+aside div{
+    display: flex;
+    align-items: center;
+
+}
+
+aside div:nth-child(1)>span{
+    margin-right: .5em;
+}
+
+aside div>div{
+    display: block;
+}
+
+.servings{
+    grid-column: 1/-1;
+}
+
+.servings div:nth-child(1)>span{
+    color: #F2994A;
+}
+
+
+
+
+
+aside span{
+    font-size: 0.625rem;
+}
+
+aside p{
+    font-size: 0.75rem;
+}
