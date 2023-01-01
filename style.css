@@ -66,7 +66,7 @@ h2, h3{
     padding: .5em 0 .5em .5em;
 }
 
-label, li{
+label, li, a{
     font-size: clamp(.75rem, 2vw + .08rem, 1rem);
     line-height: 25px;
 
@@ -155,4 +155,7 @@ aside p{
 }
 
 
-
+/* link source */
+.instructions-source a{
+    color: #BDBDBD;
+}
