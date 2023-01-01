@@ -20,8 +20,39 @@ fieldset{
     border: none;
 }
 
+legend{
+    font-size: clamp(.625rem, 1vw + .5rem, .75rem);
+    font-style: italic;
+    padding: .25em 0;
+}
+
+input{
+    outline: 1px gray;
+}
+
+ul{
+    padding-left: .5em;
+   list-style: none;
+   counter-reset: instruction-counter;
+}
+
+li{
+    counter-increment: instruction-counter;
+    margin-bottom: 1em;
+}
+
+li:before{
+    content: counter(instruction-counter);
+    background-color: #F2994A;
+    color: white;
+    padding: .4em .8em;
+    border-radius: 4px;
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
 .container{
-    width: min(80%, 1200px);
+    width: min(90%, 1200px);
     margin: 0 auto;
 }
 
@@ -29,6 +60,19 @@ body{
     height: 100%;
     font-family: 'Montserrat', sans-serif;
 }
+
+h2, h3{
+    font-size: clamp(1rem, 1vw + 1rem, 2rem);
+    padding: .5em 0 .5em .5em;
+}
+
+label, li{
+    font-size: clamp(.75rem, 2vw + .08rem, 1rem);
+    line-height: 25px;
+
+}
+
+
 /* start of header */
 header{
     padding: 1em 0;
@@ -54,6 +98,14 @@ header p{
 }
 
 /* end of header */
+
+/* main */
+
+main{
+    margin: 1em 0;
+}
+
+
 
 /* aside content */
 
@@ -101,3 +153,12 @@ aside span{
 aside p{
     font-size: 0.75rem;
 }
+
+
+section{
+    border: 2px solid pink;
+}
+
+/* .instructions h3{
+    margin-left: 1.5em;
+} */
