@@ -102,7 +102,7 @@ header p{
 /* main */
 
 main{
-    margin: 1em 0;
+    padding: 1em 0 3em 0;
 }
 
 
@@ -155,10 +155,4 @@ aside p{
 }
 
 
-section{
-    border: 2px solid pink;
-}
 
-/* .instructions h3{
-    margin-left: 1.5em;
-} */
