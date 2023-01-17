@@ -19,7 +19,7 @@ body {
     height: 100%;
 
     display: grid;
-    grid-template-rows: 2fr 4fr 5rem;
+    grid-template-rows: 1fr 2fr min-content;
 }
 
 h1 {
@@ -142,6 +142,7 @@ main img {
 
 
 footer {
+    padding: 2em 0;
     text-align: center;
 }
 
