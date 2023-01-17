@@ -98,9 +98,14 @@ main {
         "e f d"
     ;
     justify-content: center;
-    gap: 1rem;
+    gap: 10px;
 }
 
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 main img {
     border-radius: 12px;
@@ -132,12 +137,17 @@ main img {
 }
 
 
-
-
-
-
-
-
 footer {
     text-align: center;
+}
+
+@media (max-width: 600px) {
+    main img {
+        max-width: 100%;
+    }
+
+    main {
+        display: grid;
+        gap: 1px;
+    }
 }
