@@ -91,13 +91,17 @@ header {
 }
 
 main {
+    margin: 5vmin 0;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, max-content);
     grid-template-areas:
         "a b b"
         "c c d"
         "e f d"
     ;
     justify-content: center;
+
     gap: 10px;
 }
 
