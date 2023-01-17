@@ -89,3 +89,55 @@ header {
     color: #A9A9A9;
     font-weight: 600;
 }
+
+main {
+    display: grid;
+    grid-template-areas:
+        "a b b"
+        "c c d"
+        "e f d"
+    ;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+main img {
+    border-radius: 12px;
+    width: 90%;
+}
+
+.photo-1 {
+    grid-area: a;
+}
+
+.photo-2 {
+    grid-area: b;
+}
+
+.photo-3 {
+    grid-area: c;
+}
+
+.photo-4 {
+    grid-area: d;
+}
+
+.photo-5 {
+    grid-area: e;
+}
+
+.photo-6 {
+    grid-area: f;
+}
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+}
