@@ -39,5 +39,9 @@ body {
     margin: 0 auto;
 }
 
+header {
+    padding: 1.25em 0;
+}
+
 
 @media (prefers-color-scheme: dark) {}
