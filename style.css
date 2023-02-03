@@ -103,5 +103,18 @@ picture>img {
     flex-grow: 1;
 }
 
+.bag-content>input,
+.shoes-content>input {
+    background-color: transparent;
+    max-width: 80%;
+    padding: .5em 0;
+    border: 1px solid #828282;
+    border-radius: 1rem;
+
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
 
 @media (prefers-color-scheme: dark) {}
