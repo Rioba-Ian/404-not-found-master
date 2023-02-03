@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    /* primary */
+    --dark-grey: #4e5150;
+    --orange: #f2994a;
+
+    --light-gray: #f2f2f2;
+}
+
+html {
+    height: 100%;
+    font-size: 0.95rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+@media (prefers-color-scheme: dark) {}
