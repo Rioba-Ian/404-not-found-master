@@ -43,5 +43,31 @@ header {
     padding: 1.25em 0;
 }
 
+.products {
+    background-color: var(--light-gray);
+    border-radius: 10px;
+    max-width: 400px;
+
+    padding: 2em;
+}
+
+.bag,
+.shoes {
+    display: grid;
+    grid-template-columns: 1fr 50%;
+}
+
+.picture {
+    flex-shrink: 0;
+}
+
+.bag {
+    margin-bottom: 1em;
+}
+
+.shoes {
+    margin: 1em 0 3em 0;
+}
+
 
 @media (prefers-color-scheme: dark) {}
