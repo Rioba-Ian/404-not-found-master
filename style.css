@@ -16,6 +16,7 @@
 html {
     height: 100%;
     font-size: 0.95rem;
+    line-height: 16px;
 }
 
 img {
@@ -29,7 +30,13 @@ a {
 body {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
+    color: var(--dark-grey);
+    font-weight: 600;
+}
 
+.container {
+    width: min(90%, 1000px);
+    margin: 0 auto;
 }
 
 
