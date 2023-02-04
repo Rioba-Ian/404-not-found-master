@@ -13,7 +13,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-
+    <!-- icons material -->
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
     <link rel="stylesheet" href="style.css">
     <title>Devchallenges</title>
   </head>
@@ -69,12 +71,24 @@
 
       <section class="contact">
         <h2>Contact Information</h2>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" required>
+        <div class="input-container">
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required>
+          <span class="material-symbols-outlined">
+            mail
+          </span>
+        </div>
 
 
-        <label for="phone">Phone</label>
-        <input type="tel" name="phone" id="phone">
+        <div class="input-container">
+
+          <label for="phone">Phone</label>
+          <input type="tel" name="phone" id="phone">
+          <span class="material-symbols-outlined">
+            call
+          </span>
+        </div>
       </section>
 
       <section class="shipping">
