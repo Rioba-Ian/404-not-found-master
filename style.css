@@ -214,4 +214,12 @@ select {
     margin-left: 1rem;
 }
 
+.save-info {
+    margin: 1em 0;
+}
+
+input[type=checkbox] {
+    width: auto;
+}
+
 @media (prefers-color-scheme: dark) {}
