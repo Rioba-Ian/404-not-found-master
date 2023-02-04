@@ -116,5 +116,28 @@ picture>img {
     font-weight: 600;
 }
 
+.bag-content p+p,
+.shoes-content p+p {
+    margin-top: 1em;
+    color: #f2994a;
+}
+
+.bag-content span,
+.shoes-content span {
+    color: var(--dark-grey);
+    text-decoration: line-through;
+}
+
+.shipping,
+.total {
+    margin: 0.5em 0;
+    color: #333;
+}
+
+hr {
+    background: var(--dark-grey);
+    opacity: 0.5;
+}
+
 
 @media (prefers-color-scheme: dark) {}
