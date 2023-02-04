@@ -122,14 +122,25 @@
 
         <div class="country-group">
 
-          <label for="country">Country</label>
-          <select name="country" id="country" aria-placeholder="Your Country">
-            <option value=""></option>
-          </select>
+          <div class="select-container">
+
+            <label for="country">Country</label>
+            <select name="country" id="country" aria-placeholder="Your Country">
+              <option value="">Your country...</option>
+            </select>
+            <span class="material-symbols-outlined">
+              location_city
+            </span>
+          </div>
+
+
           <div class="input-container">
 
             <label for="postal">Postal code</label>
-            <input type="number" name="postal" placeholder="Your postal code" id="postal">
+            <input type="text" name="postal" placeholder="Your postal code" id="postal">
+            <span class="material-symbols-outlined">
+              markunread_mailbox
+            </span>
           </div>
         </div>
 

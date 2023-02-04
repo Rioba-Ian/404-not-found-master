@@ -33,6 +33,13 @@ input {
     border: 1px solid black;
 }
 
+select {
+    width: 100%;
+    border: none;
+    border: 1px solid black;
+}
+
+select:focus:hover,
 input:focus:hover {
     border: 1px solid var(--orange);
     box-shadow: 0px 0px 5px var(--orange);
@@ -164,14 +171,47 @@ hr {
     margin-top: 0.4em;
 }
 
+select {
+    border: 1px solid var(--dark-grey);
+    padding: 0.5em 0.5em 0.5em 2.5em;
+    border-radius: 10px;
+    background: transparent;
+    color: #828282;
+    font-size: 1.125rem;
+    margin-top: 0.4em;
+}
+
+
+
 .input-container {
     position: relative;
 }
 
-.input-container span {
+.select-container {
+    position: relative;
+}
+
+.input-container span,
+.select-container span {
     position: absolute;
     left: 2%;
     top: 48.33%;
+}
+
+.country-group {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.country-group>.select-container {
+    flex-shrink: 2;
+
+}
+
+.country-group>.input-container {
+    flex-shrink: 3;
+    margin-left: 1rem;
 }
 
 @media (prefers-color-scheme: dark) {}
