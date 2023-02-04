@@ -78,6 +78,10 @@ header {
     padding: 1.25em 0;
 }
 
+main {
+    padding: 1em 0 3em 0;
+}
+
 .products {
     background-color: var(--light-gray);
     border-radius: 10px;
@@ -220,6 +224,22 @@ select {
 
 input[type=checkbox] {
     width: auto;
+}
+
+.continue {
+    text-align: right;
+    margin: 1em 0;
+}
+
+.continue button {
+    padding: 1em 2.4em;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.25rem;
+
 }
 
 @media (prefers-color-scheme: dark) {}
