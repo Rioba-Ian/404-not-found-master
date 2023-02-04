@@ -242,4 +242,8 @@ input[type=checkbox] {
 
 }
 
+footer {
+    text-align: center;
+}
+
 @media (prefers-color-scheme: dark) {}
