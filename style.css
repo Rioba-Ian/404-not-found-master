@@ -157,10 +157,11 @@ hr {
 
 .input-container input {
     border: 1px solid var(--dark-grey);
-    padding: 0.5em 0.5em 0.5em 2em;
+    padding: 0.5em 0.5em 0.5em 2.5em;
     border-radius: 10px;
     color: #828282;
     font-size: 1.125rem;
+    margin-top: 0.4em;
 }
 
 .input-container {
@@ -170,7 +171,7 @@ hr {
 .input-container span {
     position: absolute;
     left: 2%;
-    top: 45%;
+    top: 48.33%;
 }
 
 @media (prefers-color-scheme: dark) {}
