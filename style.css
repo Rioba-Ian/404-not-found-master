@@ -70,7 +70,7 @@ body {
 }
 
 .container {
-    width: min(90%, 1000px);
+    width: min(90%, 1100px);
     margin: 0 auto;
 }
 
@@ -85,7 +85,7 @@ main {
 .products {
     background-color: var(--light-gray);
     border-radius: 10px;
-    max-width: 400px;
+    max-width: 380px;
 
     padding: 2em;
 }
@@ -245,6 +245,34 @@ input[type=checkbox] {
 
 footer {
     text-align: center;
+}
+
+@media (min-width:800px) {
+    main>form {
+        display: grid;
+        grid-template-areas:
+            "contact card";
+        grid-template-columns: 3fr 10% 2fr;
+        align-items: start;
+        grid-template-rows: 1fr;
+        /* background-color: lime; */
+    }
+
+    .products {
+        grid-area: card;
+        grid-column: 3/4;
+
+    }
+
+    article {
+        grid-column: 1/2;
+        grid-area: contact;
+
+        padding-right: 10%;
+        background-color: lime;
+    }
+
+
 }
 
 @media (prefers-color-scheme: dark) {}
