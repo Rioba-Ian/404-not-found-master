@@ -153,9 +153,10 @@ hr {
 .contact input[type=email],
 .contact input[type=tel] {
     border: 1px solid var(--dark-grey);
-    padding: 0.8em 0;
+    padding: 0.2em 0;
     border-radius: 10px;
     color: #828282;
+    font-size: 1.125rem;
 }
 
 .input-container {
