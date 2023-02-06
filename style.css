@@ -30,7 +30,6 @@ a {
 input {
     width: 100%;
     border: none;
-    border: 1px solid black;
 }
 
 select {
@@ -123,12 +122,13 @@ picture>img {
     background-color: transparent;
     max-width: 80%;
     padding: .5em 0;
-    border: 1px solid #828282;
     border-radius: 1rem;
 
     font-size: 1.2rem;
     text-align: center;
     font-weight: 600;
+
+    appearance: textfield;
 }
 
 .bag-content p+p,
@@ -273,8 +273,27 @@ footer {
 
 }
 
-.amount-input>input[type=number]::-webkit-inner-spin-button .amount-input>input::-webkit-outer-spin-button {
-    -webkit-appearance: none;
+.amount-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #4e5150;
+    border-radius: 12px;
+    padding: 0.25em;
+}
+
+.amount-input button {
+    background: transparent;
+    border: none;
+    width: inherit;
+    font-size: 1.75rem;
+    cursor: pointer;
+}
+
+
+.amount-input>input[type=number]:focus,
+.amount-input>input[type=number]:hover,
+.amount-input>input[type=number]:focus:hover {
+    outline: 0;
 }
 
 @media (prefers-color-scheme: dark) {}
