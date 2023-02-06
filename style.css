@@ -118,8 +118,8 @@ picture>img {
     flex-grow: 1;
 }
 
-.bag-content>input,
-.shoes-content>input {
+.bag-content>.amount-input>input,
+.shoes-content>.amount-input>input {
     background-color: transparent;
     max-width: 80%;
     padding: .5em 0;
@@ -271,6 +271,10 @@ footer {
     }
 
 
+}
+
+.amount-input>input[type=number]::-webkit-inner-spin-button .amount-input>input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
 }
 
 @media (prefers-color-scheme: dark) {}
